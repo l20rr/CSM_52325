@@ -1,0 +1,16 @@
+# Ambiente Virtual (responsável por milhares de ficheiros desnecessários)
+.venv/
+env/
+venv/
+ENV/
+
+# Bloquear todos os ficheiros PDF no projeto inteiro
+*.pdf
+
+# Ficheiros de sistema e temporários
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
